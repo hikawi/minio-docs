@@ -1,0 +1,11 @@
+node_modules
+build
+.git
+.github
+.venv
+.dockerignore
+Dockerfile
+.gitignore
+README.md
+*.log
+

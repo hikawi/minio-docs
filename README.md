@@ -1,10 +1,11 @@
 # MinIO Documentation
 
-As of October 10, 2025, the MinIO object store documentation was pulled from web hosting.
+Since October of 2025, MinIO pulled every single community-edition documents of
+their website to push the new AIStor whatever.
 
-Moving forward, community users can build and host the documentation themselves using the instructions below.
-
-No further development of the documentation is planned at this time. The project maintainers will make best efforts to review and merge PRs from the community.
+This repository is meant to be here as a simple way for me to deploy the HTTP
+server, and preserve the MinIO Community Docs, as much as I could, I can't fully
+reverse all changes done.
 
 ## Build Instructions
 
@@ -51,7 +52,7 @@ make SYNC_SDK=true mindocs
 `SYNC_SDK=true` pulls down SDK-related dependencies from MinIO's community S3 libraries.
 You can omit `SYNC_SDK` on subsequent builds.
 
-5. View the generated documentation at http://localhost:8000.
+5. View the generated documentation at <http://localhost:8000>.
 
 ```
 python -m http.server --directory build/YOUR_BRANCH/<PLATFORM>/html
